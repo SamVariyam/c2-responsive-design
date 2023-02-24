@@ -1,0 +1,284 @@
+body{
+  height:100vh;
+  font-family: "ccmeanwhile", sans-serif;
+font-weight: 400;
+font-style: normal;
+background: radial-gradient(#000 10%,rgb(250, 235, 190) 10%);
+background-size: 10px 10px;
+}
+span{
+  position:absolute;
+  top:3vh;
+}
+img{
+  height:100vh;
+}
+.one .one-reflect{
+  height:100vh;
+}
+.two .two-reflect{
+  height:95vh;
+}
+.three .three-reflect{
+  height:85vh;
+}
+.four .four-reflect{
+  height:80vh;
+}
+.five .five-reflect{
+  height:75vh;
+}
+.six .six-reflect{
+  height:65vh;
+}
+.seven .seven-reflect{
+  height:60vh;
+}
+
+.image{
+  display:flex;
+  flex-direction:row;
+}
+/*general styling*/
+@media screen and (max-width: 130em) {
+ 
+  .first-screen {
+    text-align:center;
+    display:block;
+    height:10%;
+  }
+  .one{
+    position:fixed;
+    right:0;
+  }
+  .one-reflect{
+    transform: scaleX(-1);
+    margin:0
+  }
+  .second-screen{
+    display:none;
+  }
+  .third-screen{
+    display:none;
+  }
+  .fourth-screen{
+    display:none;
+  }
+  .fifth-screen{
+    display:none;
+  }
+  .sixth-screen{
+    display:none;
+  }
+  .seventh-screen{
+    display:none;
+  }
+}
+
+  @media screen and (max-width: 90em) {
+ 
+    .first-screen{
+      display:none;
+    }
+    .second-screen{
+      text-align:center;
+      display:block;
+      height:10%;
+    }
+    .two{
+      position:fixed;
+    right:0;
+    }
+    .two-reflect{
+      transform: scaleX(-1);
+    }
+    .third-screen{
+      display:none;
+    }
+    .fourth-screen{
+      display:none;
+    }
+    .fifth-screen{
+      display:none;
+    }
+    .sixth-screen{
+      display:none;
+    }
+    .seventh-screen{
+      display:none;
+    }
+  }
+
+    @media screen and (max-width: 80em){
+ 
+      .first-screen{
+        display:none;
+      }
+      .second-screen{
+        display:none;
+      }
+      .third-screen{
+        text-align:center;
+        display:block;
+        height:10%;
+      }
+      .three{
+        position:fixed;
+    right:0;
+      }
+      .three-reflect{
+        transform: scaleX(-1);
+      }
+      .fourth-screen{
+        display:none;
+      }
+      .fifth-screen{
+        display:none;
+      }
+      .sixth-screen{
+        display:none;
+      }
+      .seventh-screen{
+        display:none;
+      }
+
+    }
+
+    @media screen and (max-width: 70em){
+ 
+      .first-screen{
+        display:none;
+      }
+      .second-screen{
+        display:none;
+      }
+      .third-screen{
+        display:none;
+      }
+      .fourth-screen{
+        text-align:center;
+        display:block;
+        height:10%;
+      }
+      .four{
+        position:fixed;
+    right:0;
+      }
+      .four-reflect{
+        transform: scaleX(-1);
+      }
+      .fifth-screen{
+        display:none;
+      }
+      .sixth-screen{
+        display:none;
+      }
+      .seventh-screen{
+        display:none;
+      }
+
+    }
+
+    @media screen and (max-width: 60em){
+ 
+      .first-screen{
+        display:none;
+      }
+      .second-screen{
+        display:none;
+      }
+      .third-screen{
+        display:none;
+      }
+      .fourth-screen{
+        display:none;
+      }
+      .fifth-screen{
+        text-align:center;
+        display:block;
+        height:10%;
+      }
+      .five{
+        position:fixed;
+        right:0;
+      }
+      .five-reflect{
+        transform: scaleX(-1);
+      }
+      .sixth-screen{
+        display:none;
+      }
+      .seventh-screen{
+        display:none;
+      }
+
+    }
+
+    @media screen and (max-width: 50em){
+ 
+      .first-screen{
+        display:none;
+      }
+      .second-screen{
+        display:none;
+      }
+      .third-screen{
+        display:none;
+      }
+      .fourth-screen{
+        display:none;
+      }
+      .fifth-screen{
+        display:none;
+      }
+      .sixth-screen{
+        text-align:center;
+        display:block;
+        height:10%;
+      }
+      .six{
+        position:fixed;
+        right:0;
+      }
+      .six-reflect{
+        transform: scaleX(-1);
+      }
+      .seventh-screen{
+        display:none;
+      }
+
+    }
+
+    @media screen and (max-width: 40em){
+ 
+      .first-screen{
+        display:none;
+      }
+      .second-screen{
+        display:none;
+      }
+      .third-screen{
+        display:none;
+      }
+      .fourth-screen{
+        display:none;
+      }
+      .fifth-screen{
+        display:none;
+      }
+      .sixth-screen{
+        display:none;
+      }
+      .seventh-screen{
+        text-align:center;
+        display:block;
+        height:10%;
+        align-items:center;
+        font-family: "ccmeanwhile", sans-serif;
+font-weight: 700;
+font-style: italic;
+      }
+      .seven{
+        float:left;
+    }
+    }
